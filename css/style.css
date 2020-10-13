@@ -1,0 +1,99 @@
+.container{
+    width: 49%;
+}
+.addToDoBar{
+    width: 48%;
+    background-color: #a10202;
+    padding: 10px 10px 5px 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    margin-bottom: -10px;
+    position: relative;
+}
+
+.editBox{
+    background-color: #b32107;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.main-table{
+    width: 100%;
+    background-color:#4f4b4a;
+    margin-top: 20px;
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.main-table tr{
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.main-table td{
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-table tr:nth-child(odd) {
+    background-color:#d97e77;
+  }
+  
+  .main-table tr:nth-child(even) {
+    background-color:#fff;
+  }
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    } 
+          
+.icon { 
+    padding: 0px; 
+    min-width: 40px; 
+    font-weight: bold;
+    } 
+
+.addIcon{font-size: 15px; 
+         padding: 10px 0px 10px 0px;
+         }    
+          
+.input-field { 
+    width: 60%; 
+    padding: 10px; 
+    text-align: center; 
+    }
+.submit {
+    width: 30%;
+    background-color:#0398fc;
+    font-size: 15px;
+     
+} 
+.table {
+    width: 30%; background-color:red;
+}
+.button{float: right!important;
+        margin: 5px;
+        font-size: 15px;
+        color: white;
+}
+
+label {
+    color:#ffd6d6;
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+}
+
+.delete{ background-color: #a10202;}   
+.update{ background-color: #247302;}   
+.edit{background-color: #0398fc;;}
